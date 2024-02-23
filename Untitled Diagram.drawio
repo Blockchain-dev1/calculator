@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-02-23T01:11:00.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.6" etag="gmHrCBrpYB2qe4hsOaP1" type="github">
+  <diagram name="Page-1" id="q1eBeMBib5hL4-pT9hyK">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="91" width="51" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Processing Dataset A" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="101" y="91" width="162" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Merging Datasets" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="313" y="65" width="138" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Processing Dataset B" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="65" width="162" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Are all data processed?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="732" width="216" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="91" width="41" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9934129901960784;exitY=0.4958639705882353;entryX=-0.0020736882716049384;entryY=0.4958639705882353;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9267086597815765;exitY=-0.004136029411764706;entryX=-0.0010756340579710145;entryY=0.4958639705882353;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="288" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9989243659420289;exitY=0.4958639705882353;entryX=0.00038580246913580245;entryY=0.4958639705882353;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0011574074074074;exitY=0.4958639705882353;entryX=0.0008680555555555555;entryY=0.4016285459298679;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.9995659722222222;exitY=0.4993489583333333;entryX=0.0019054878048780487;entryY=0.4958639705882353;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.0008680555555555555;exitY=0.5970693707367988;entryX=0.9267086597815765;entryY=0.9958639705882353;" edge="1" parent="1" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="134" />
+              <mxPoint x="288" y="134" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
